@@ -9,7 +9,7 @@ for i=1:ncol
 %    travel2=[i:1:ncol 1:1:j-1];
 %  elseif j>i
    travel1=[i:1:j-1];
-   travel2=[i-1:-1:1 46:-1:j];
+   travel2=[i-1:-1:1 ncol:-1:j];
 %end
     
 d1=sum(d(travel1));
